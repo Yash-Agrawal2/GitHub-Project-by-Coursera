@@ -6,9 +6,8 @@
 # Check if 3 arguments are provided
 if [ $# -eq 3 ]; then
     P=$1   # Principal
-    R=$2   # Rate of interest per year
-    T=$3   # Time in years
-else
+    R=$2  
+    T=$3   
     # Ask user for input if arguments are not provided
     echo "Enter the principal amount:"
     read P
